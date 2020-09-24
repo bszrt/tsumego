@@ -1,0 +1,9 @@
+div {
+	width:580px;
+	display:inline;
+}
+
+canvas {
+	float:left;
+	padding-right: 10px;
+}

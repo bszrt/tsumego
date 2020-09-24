@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="tsumego.css" type="text/css" />
+	<script type="text/javascript"></script>
+	<script type="text/javascript" src="tsumego.js"></script>
+	<title>Tsumego generator prototype</title>
+</head>
+<body onload="drawBoard();">
+
+<canvas id="board" width = 570 height = 570></canvas>
+
+<div>
+
+<p>This is a first attempt at a tsumego generator I'm working on. A lot of functionality is still missing, but this is a good indication of the kind of thing I want to do. Since it's randomly generated, you might have to try a few times before you get a good one. Also since it's randomly generated, there's no solutions.</p>
+
+<p>All problems are "what is the state of this corner" problems. Can B live? Can W kill? Click the button to generate a new one:</p>
+
+<button onclick="location.reload();">Generate</button>
+
+</div>
+
+
+</body>
+</html>
